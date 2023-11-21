@@ -1,0 +1,25 @@
+.blog{
+    color: #4862EA;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.notify{
+    font-weight: 200;
+}
+
+.container h1{
+    margin-left: 40px;
+}
+
+
+@media screen and (max-width:600px)  {
+    .container{
+        margin-bottom: 5700px;
+    }
+  }
